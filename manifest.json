@@ -2,7 +2,7 @@
   "name": "Mi Agenda Financiera Inteligente",
   "short_name": "Mis Finanzas",
   "description": "Gestor de finanzas personales inteligente con análisis en tiempo real. Registra ingresos, gastos y ahorros, visualiza tu flujo de dinero y alcanza tus metas financieras.",
-  "start_url": "./agenda financieria.html",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
@@ -55,6 +55,7 @@
       "short_name": "Transacción",
       "description": "Registra rápidamente una nueva transacción",
       "url": "./agenda financieria.html?action=transaction",
+      "url": "./index.html?action=transaction",
       "icons": [
         {
           "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%232563eb' width='96' height='96' rx='20'/><text x='50%' y='50%' font-size='50' fill='%23ffffff' text-anchor='middle' dominant-baseline='central'>➕</text></svg>",
@@ -67,7 +68,7 @@
       "name": "Ver Reportes",
       "short_name": "Reportes",
       "description": "Visualiza tus reportes financieros",
-      "url": "./agenda financieria.html?action=reports",
+      "url": "./index.html?action=reports",
       "icons": [
         {
           "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%2310b981' width='96' height='96' rx='20'/><text x='50%' y='50%' font-size='50' fill='%23ffffff' text-anchor='middle' dominant-baseline='central'>📊</text></svg>",
@@ -78,7 +79,7 @@
     }
   ],
   "share_target": {
-    "action": "/agenda financieria.html",
+    "action": "/index.html",
     "method": "POST",
     "enctype": "multipart/form-data",
     "params": {
